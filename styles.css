@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    max-width: 1000px;
+    margin-left: 5rem;
+    background-color: ghostwhite;
+}
+
+p,
+li {
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+}
+
+li {
+    padding-bottom: 0.75rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.6rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+
+img {
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+    
+}
+
+a:hover {
+    opacity: 0.3;
+}
